@@ -1,0 +1,265 @@
+#fullName {
+  width: 400px;
+  height: 40px;
+  padding: 15px; }
+
+.invalid {
+  border: 2px solid red; }
+
+.valid {
+  border: 2px solid green; }
+
+#tenerife,
+#lagomera,
+#lapalma,
+#elhierro,
+#grancanaria,
+#lanzarote,
+#fuerteventura {
+  position: absolute;
+  background: transparent;
+  border: transparent; }
+
+#tenerife {
+  width: 6em;
+  height: 6em;
+  top: 45.5em;
+  left: 10em; }
+
+#lagomera {
+  width: 3em;
+  height: 3em;
+  top: 48em;
+  left: 7em; }
+
+#lapalma {
+  width: 3em;
+  height: 6em;
+  top: 43em;
+  left: 3.3em; }
+
+#elhierro {
+  width: 4em;
+  height: 4em;
+  top: 50em;
+  left: 2em; }
+
+#grancanaria {
+  width: 4em;
+  height: 5em;
+  top: 48em;
+  left: 16em; }
+
+#lanzarote {
+  width: 5em;
+  height: 4em;
+  top: 41em;
+  left: 27em; }
+
+#fuerteventura {
+  width: 6em;
+  height: 7em;
+  top: 44.7em;
+  left: 24em; }
+
+img[width="384"] {
+  width: 385px !important; }
+
+#gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 12em;
+  margin: 0 auto; }
+
+.gallery.custom-state-active {
+  background: #eee; }
+
+.gallery li {
+  float: left;
+  width: 96px;
+  padding: 0.4em;
+  margin: 0 0.4em 0.4em 0;
+  text-align: center; }
+
+.gallery li h5 {
+  margin: 0 0 0.4em;
+  cursor: move; }
+
+.gallery li a {
+  float: right; }
+
+.gallery li a.ui-icon-zoomin {
+  float: left; }
+
+.gallery li img {
+  width: 100%;
+  cursor: move; }
+
+@media (min-width: 576px) {
+  #tenerife {
+    width: 6em;
+    height: 6em;
+    top: 44.5em;
+    left: 10em; }
+  #lagomera {
+    width: 3em;
+    height: 3em;
+    top: 47em;
+    left: 7em; }
+  #lapalma {
+    width: 3em;
+    height: 6em;
+    top: 42em;
+    left: 3.3em; }
+  #elhierro {
+    width: 4em;
+    height: 4em;
+    top: 49em;
+    left: 2em; }
+  #grancanaria {
+    width: 4em;
+    height: 5em;
+    top: 47em;
+    left: 16em; }
+  #lanzarote {
+    width: 5em;
+    height: 4em;
+    top: 40em;
+    left: 27em; }
+  #fuerteventura {
+    width: 6em;
+    height: 7em;
+    top: 43.7em;
+    left: 24em; } }
+
+@media (min-width: 768px) {
+  #tenerife {
+    width: 8em;
+    height: 7em;
+    top: 48em;
+    left: 13em; }
+  #lagomera {
+    width: 6em;
+    height: 6em;
+    top: 47.5em;
+    left: 6.8em; }
+  #lapalma {
+    width: 5em;
+    height: 6em;
+    top: 42em;
+    left: 3em; }
+  #elhierro {
+    width: 5em;
+    height: 6em;
+    top: 52em;
+    left: 2em; }
+  #grancanaria {
+    width: 6em;
+    height: 6em;
+    top: 50.5em;
+    left: 21em; }
+  #lanzarote {
+    width: 6em;
+    height: 5em;
+    top: 41em;
+    left: 37em; }
+  #fuerteventura {
+    width: 8em;
+    height: 9em;
+    top: 45.7em;
+    left: 32.6em; } }
+
+@media (min-width: 992px) {
+  #tenerife {
+    width: 11em;
+    height: 10em;
+    top: 49em;
+    left: 17em; }
+  #lagomera {
+    width: 5em;
+    height: 5em;
+    top: 53em;
+    left: 11.2em; }
+  #lapalma {
+    width: 5em;
+    height: 8em;
+    top: 44.5em;
+    left: 4em; }
+  #elhierro {
+    width: 6em;
+    height: 6em;
+    top: 57.5em;
+    left: 2em; }
+  #grancanaria {
+    width: 7em;
+    height: 8em;
+    top: 53em;
+    left: 29em; }
+  #lanzarote {
+    width: 7em;
+    height: 7em;
+    top: 39em;
+    left: 50.8em; }
+  #fuerteventura {
+    width: 10em;
+    height: 11em;
+    top: 46em;
+    left: 44em; } }
+
+@media (min-width: 1200px) {
+  #tenerife {
+    width: 12em;
+    height: 11em;
+    top: 51.5em;
+    left: 20em;
+    background: transparent;
+    border-radius: 50px; }
+  #lagomera {
+    width: 7em;
+    height: 7em;
+    top: 56em;
+    left: 13em;
+    background: transparent;
+    border-radius: 50px; }
+  #lapalma {
+    width: 5em;
+    height: 8em;
+    top: 45.5em;
+    left: 5em;
+    background: transparent;
+    border-radius: 50px; }
+  #elhierro {
+    width: 6em;
+    height: 6em;
+    top: 60em;
+    left: 2em;
+    background: transparent;
+    border-radius: 50px; }
+  #grancanaria {
+    width: 9em;
+    height: 10em;
+    top: 56em;
+    left: 34em;
+    background: transparent;
+    border-radius: 50px; }
+  #lanzarote {
+    width: 10em;
+    height: 8em;
+    top: 40em;
+    left: 60em;
+    background: transparent;
+    border-radius: 50px; }
+  #fuerteventura {
+    width: 12em;
+    height: 13em;
+    top: 48em;
+    left: 52em;
+    background: transparent;
+    border-radius: 50px; } }
